@@ -90,7 +90,7 @@ function displayResponse(response) {
     console.log(streamObj);
     // regex to get name from streamObj.stream._links.self 
     var regex = /https\:\/\/api\.twitch\.tv\/kraken\/streams\/(\w+)/g;
-    var name = regex.exec(streamObj.stream._links.self);
+    var name = regex.exec(streamObj._links.self);
     console.log(name[1]);
     // Dynamically create elements for JSONP responses
     var div = document.createElement("div");

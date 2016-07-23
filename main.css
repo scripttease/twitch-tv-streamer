@@ -33,3 +33,18 @@ h1, h2 {
 p {
   font-size: x-large;
 }
+
+.response {
+  margin: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: #7876f5;
+  border-width: medium;
+  /* border-style: solid; */
+  text-align: justify;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+}
