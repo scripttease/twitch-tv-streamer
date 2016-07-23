@@ -1,7 +1,7 @@
 Wiki Search
 ============
 
-## [http://scripttease.uk/twitch-tv-streamer/](http://scripttease.uk/twitch-tv-streamer/
+## [http://scripttease.uk/twitch-tv-streamer/](http://scripttease.uk/twitch-tv-streamer/)
 
 ## [FreeCodeCamp](https://www.freecodecamp.com/) Frontend Exercise:
 
