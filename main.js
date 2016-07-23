@@ -83,7 +83,7 @@ function displayResponse(response) {
     document.getElementById("title" + calledTimes).innerHTML = name[1];
     document.getElementById("extract" + calledTimes).innerHTML = "Offline" 
       // Add link to home page for each response
-      document.getElementById("link" + calledTimes).setAttribute("href", streamObj._links.self);
+      document.getElementById("link" + calledTimes).setAttribute("href", "https://www.twitch.tv/" + name[1]);
   } else {
     // Online
     var streamObj = response.stream;
@@ -116,7 +116,7 @@ function displayResponse(response) {
     document.getElementById("title" + calledTimes).innerHTML = name[1];
     document.getElementById("extract" + calledTimes).innerHTML = streamObj.game;
     // Add link to home page for each response
-    document.getElementById("link" + calledTimes).setAttribute("href", streamObj._links.self);
+    document.getElementById("link" + calledTimes).setAttribute("href", "https://www.twitch.tv/" + name[1]); 
   };
 };
 
